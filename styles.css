@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8a7ad1;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section h2{
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8a7ad1;
+  color: #fff;
+  text-align: center;
+}
+
+
+/* Estilos específicos para avatares */
+.avatar {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.avatar img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.avatar button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.avatar button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para la sección "Sobre nosotros" */
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-evenly;
+  background: url(Img/Logo.jpg);
+}
+
+section {
+  padding: 20px;
+}
+
+.contenido-textos {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenido-textos h3 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.contenido-textos p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.contenido-textos ul.valores {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contenido-textos ul.valores li {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.contenido-textos ul.valores li:before {
+  content: "\2022"; /* Código Unicode para el símbolo de viñeta */
+  color: #4CAF50;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
